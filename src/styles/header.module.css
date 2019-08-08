@@ -1,0 +1,28 @@
+.header{
+    color: aqua;
+    background: grey;
+    height: 15vh;
+}
+
+.logo img{
+    height: 15vh;;
+    width: 4rem;
+}
+.element {
+    float: right;
+    width:200px;
+    height: 200px;
+    background: red;
+    -webkit-animation: fadeinout 5s linear 60 forwards;
+    animation: fadeinout 5s linear 60 forwards;
+    opacity: 0;
+    border-radius: 5px;
+}
+
+@-webkit-keyframes fadeinout {
+  50% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+  50% { opacity: 1; }
+}

@@ -1,0 +1,11 @@
+
+
+.footer{
+    color: aqua;
+    background: grey;
+    height: 25vh;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    
+}
